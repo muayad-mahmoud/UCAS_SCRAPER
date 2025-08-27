@@ -1,0 +1,51 @@
+{
+  "name": "course-gallery",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "typecheck": "tsc --noEmit",
+    "openapi-ts": "openapi-ts",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@hey-api/client-fetch": "^0.8.3",
+    "@supabase/supabase-js": "^2.49.1",
+    "@tailwindcss/vite": "^4.0.10",
+    "@xstate/react": "^5.0.2",
+    "class-variance-authority": "^0.7.1",
+    "globals": "^16.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.2.0",
+    "xstate": "^5.19.2"
+  },
+  "devDependencies": {
+    "@hey-api/openapi-ts": "^0.64.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "^22.13.9",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@types/uuid": "^10.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.28.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "happy-dom": "^17.2.2",
+    "jsdom": "^26.0.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.12",
+    "tailwindcss": "^4.0.10",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.34.0",
+    "vite": "^6.2.0",
+    "vitest": "^3.0.7"
+  },
+  "packageManager": "pnpm@8.7.1+sha512.41bb77121614697152da4e052d003baf6fde633fc9a03786ebcd3fdd45c6d066b4dcb3ee6381a076f08b7beccedcced99d61b8548e1b03093b4292727ebe5ea8"
+}

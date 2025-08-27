@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "course-gallery"
+version = "0.1.0"
+packages = [{include = "course_gallery"}]
+authors = ['mmz-001']
+description = "Course Gallery interview task"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.0"
+fastapi = "^0.112.2"
+uvicorn = "^0.30.6"
+supabase = "^2.7.4"
+pydantic-settings = "^2.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.9.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
